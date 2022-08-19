@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Segoe UI';
+        font-weight: 300;
+        color: #232323;
+        overflow-x: hidden;
+    }
+}
+
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b9b9b9 #fff;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #b9b9b9;
+    border-radius: 10px;
+}

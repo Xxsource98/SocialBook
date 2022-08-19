@@ -1,0 +1,16 @@
+{
+    "Database": {
+        "host": "socialbook-mysqldb",
+        "port": 3306,
+        "login": "root",
+        "pass": "root",
+        "dbname": "socialbook-db"
+    },
+    "Argon": {
+        "argonKey": "sr8y2AXdP/uPdeWTFOGOJ9KaJ7kuZSa1fJl95Zl5OtCZOtkR/u1bp6oIi93yxhn6y/H0gdIPPduYHVcx10DfGw=="
+    },
+    "JWT": {
+        "jwtAccessToken": "0cf8ff9dfc7798ff957715ff9334376f8353e2708c20806bf8e4365f36446d87664de56e737ddbd7b536aa6fff306fee3e812dc9fb7c97a941c9bcc66e1cbacf",
+        "jwtRefreshToken": "11a38ed8c7a88ce35095c9363d50356e4cd05e82d5891382da4c97f75a344698c600aa3e6822f3abd78c672391d70c8404c7606f55ac07f5c83ab695e50acd86"
+    }
+}
